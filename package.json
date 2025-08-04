@@ -1,0 +1,38 @@
+{
+  "name": "ai-feed",
+  "version": "1.0.0",
+  "description": "AI-powered food donation matching platform for Zero Hunger initiative",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "food-donation",
+    "ai",
+    "ibm-cloud",
+    "zero-hunger",
+    "sdg",
+    "matching-platform"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ibm-cloud/cloudant": "^0.12.7",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "ibm-watson": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
