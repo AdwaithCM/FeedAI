@@ -91,40 +91,7 @@ ibmcloud target --cf
 ibmcloud cf push
 \`\`\`
 
-## Project Structure
 
-\`\`\`
-ai-feed/
-├── src/
-│   ├── config/
-│   │   └── db.js
-│   ├── controllers/
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Donation.js
-│   │   └── Match.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── donations.js
-│   │   ├── matches.js
-│   │   └── recipients.js
-│   ├── services/
-│   │   ├── GamificationService.js
-│   │   └── MatchingService.js
-│   └── server.js
-├── public/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   ├── main.js
-│   │   ├── donor-dashboard.js
-│   │   └── recipient-dashboard.js
-│   ├── index.html
-│   ├── donor-dashboard.html
-│   └── recipient-dashboard.html
-├── package.json
-└── .env
-\`\`\`
 
 ## Testing
 
